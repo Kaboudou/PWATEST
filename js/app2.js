@@ -16,11 +16,7 @@ import { openDB } from '../node_modules/idb/build/esm/index.js';
 
         const database = await openDB('app-new', 1, {
             upgrade(db) {
-                db.createObjectStore('elements', {
-                    keyPath: 'id',
-                    // If it isn't explicitly set, create a value by auto incrementing.
-                    autoIncrement: true,
-                });
+                db.createObjectStore('elements');
             }
         });
         if(navigator.onLine) {
