@@ -1,0 +1,19 @@
+{
+  "name": "pwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index2.html",
+  "dependencies": {
+    "idb": "^4.0.3",
+    "lit-element": "^2.1.0",
+    "workbox": "^0.0.0",
+    "workbox-cli": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen": "npx workbox generateSW"
+  },
+  "author": "",
+  "license": "ISC"
+}

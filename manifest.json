@@ -1,0 +1,8 @@
+{
+  "name": "New WebApp",
+  "short_name": "New WebApp",
+  "start_url": "./?pwa",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A simply readable Hacker News app."
+}
